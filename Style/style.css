@@ -82,6 +82,8 @@ html {
     position: sticky;
     top: 0;
     z-index: 100;
+    transition: background-color 500ms ease-out;
+
 }
 .menu li {
     display: inline-block;
@@ -97,6 +99,9 @@ html {
     margin: 0 auto;
     text-align: center;
 }
+.menubar:hover{
+    background-color:#ca2d25c9;
+}
 .menu li a,
 .menu li a visited {
     color: rgb(205, 214, 218);
@@ -106,7 +111,7 @@ html {
 }
 .menu li a:hover {
     color: rgb(51, 189, 243);
-    transform: translateY(-5px);
+    transform: translateX(-5px);
 
 }
 @media only screen and(max-width:480px) {
